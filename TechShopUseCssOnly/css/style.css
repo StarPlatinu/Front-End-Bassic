@@ -1,0 +1,66 @@
+.container {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    position: absolute;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+}
+
+.logo span {
+    font-weight: bold;
+}
+
+.menu li {
+    text-decoration: none;
+    list-style: none;
+    display: inline;
+    padding-left: 10px;
+}
+
+.banner {
+    background-image: url("/image/watch4.png");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-content {
+    color: white;
+    width: 305px;
+    height: 200px;
+
+}
+
+.banner-content h1 {
+
+}
+
+.banner-content p {
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.banner-content nav {
+
+}
+
+.best-seller {}
+
+.sigup {}
+
+.footer {}
+
+.footer-content {}

@@ -1,0 +1,24 @@
+.header {
+    width: 100%;
+    display: flex;
+    height: 600px;
+    background-image: url("https://th.bing.com/th/id/R.990375a8a62497ba8b9238c71623cce7?rik=PZDCsPEWWSjWaA&pid=ImgRaw&r=0");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 50px;
+   justify-content: center;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.destinations{
+    font-size: 30px;
+}
+.icon {
+    margin-top: 20px;
+}
+.icon img{
+    width: 50px;
+    height: 50px;
+}
