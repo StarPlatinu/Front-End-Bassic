@@ -1,0 +1,92 @@
+.bar{
+    display: flex;
+    padding-bottom: 2px;
+}
+.bar h4{
+    margin-left: 250px;
+    font-weight: bolder;
+    margin-top: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.bar button{
+background-color: rgb(86, 86, 252);
+border-radius: 5px;
+border: none;
+width: 70px;
+height: 35px;
+color: white;
+margin-left: 750px;
+}
+header{
+    background-image: url(./images/bg-masthead.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    text-align: center;
+    padding-top: 130px;
+    padding-bottom: 300px;
+    background-position: center;
+    background-size: cover;
+}
+header h1{
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 30px;
+}
+header .input{
+  width: 500px;
+  height: 35px;
+  border: 1px grey solid;
+  border-radius: 5px;
+}
+.features-icons {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+}
+.features-icons .features-icons-item {
+  max-width: 20rem;
+}
+.features-icons .features-icons-item .features-icons-icon {
+  height: 7rem;
+}
+.features-icons .features-icons-item .features-icons-icon i {
+  font-size: 4.5rem;
+} 
+.showcase{
+  margin-bottom: 5px;
+}
+.showcase .showcase-text {
+    padding: 3rem;
+  }
+  .showcase .showcase-img {
+    min-height: 30rem;
+    background-size: cover;
+  }
+  .feedback {
+    padding-top: 6rem;
+    padding-bottom: 7rem;
+  }
+  .feedback .feedback-item {
+    max-width: 18rem;
+  }
+  .feedback .feedback-item img {
+    max-width: 12rem;
+    box-shadow: 0px 5px 5px 0px #adb5bd;
+  }
+  .container h2{
+    font-weight: 700;
+    line-height: 1.2;
+  }
+
+  .call-to-action{
+    position: relative;
+    background: url("./images/bg-masthead.jpg") no-repeat center center;
+    background-size: cover;
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+  }
+  footer.footer {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+

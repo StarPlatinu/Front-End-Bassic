@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+
+button{
+position: absolute;
+top: 20px;
+left: 90%;
+}
+.btn-close{
+    position: absolute;
+    left: 89%;
+    top: 3%;
+}
+.offcanvas,
+.offcanvas-lg,
+.offcanvas-md,
+.offcanvas-sm,
+.offcanvas-xl,
+.offcanvas-xxl {
+    --bs-offcanvas-zindex: 1045;
+    --bs-offcanvas-width: 17rem;
+    --bs-offcanvas-height: 30vh;
+    --bs-offcanvas-padding-x: 1rem;
+    --bs-offcanvas-padding-y: 1rem;
+    --bs-offcanvas-color: #fff;
+    --bs-offcanvas-bg: #1d809f;
+    --bs-offcanvas-border-width: 1px;
+    --bs-offcanvas-border-color: var(--bs-border-color-translucent);
+    --bs-offcanvas-box-shadow: 0 0.125rem 0.25remrgba(0, 0, 0, 0.075);
+}
+header{
+    background-image: url(./images/bg-masthead.jpg);
+    height: 100vh;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.callout{
+    background-image: url(./images/bg-callout.jpg);
+    padding: 15rem 0;
+    height: 100vh;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+.content-section{
+    padding-top: 7.5rem;
+    padding-bottom: 7.5rem;
+}
+.callout h2{
+    font-size: 3.5rem;
+    font-weight: 700;
+    display: block;
+    max-width: 30rem;   
+}
+.portfolio-item-1{
+    background-image: url(./images/portfolio-1.jpg);
+    height: 300px;
+}
+.portfolio-item-2{
+    background-image: url(./images/portfolio-2.jpg);
+    height: 300px;
+}
+.portfolio-item-3{
+    background-image: url(./images/portfolio-3.jpg);
+    height: 300px;
+}
+.portfolio-item-4{
+    background-image: url(./images/portfolio-4.jpg);
+    height: 300px;
+}
+.caption-content{
+    padding-top: 9rem;
+    padding-left: 6rem;
+    padding-right: 5rem;
+}
+.content-section-heading h2{
+    font-size: 3rem;
+}
+.service-icon{
+    background-color: #fff;
+    color: #1D809F;
+    height: 7rem;
+    width: 7rem;
+    line-height: 7.5rem;
+    font-size: 2.25rem;
+    box-shadow: 0 3px 3px 0 rgb(0 0 0 / 10%);
+}
+.btn-xl{
+    padding: 1.25rem 2.5rem;
+}
+footer.footer {
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+  .list-inline-item {
+    display: inline-block;
+  }
+  footer.footer .service-icon {
+    text-decoration: none;
+    height: 4rem;
+    width: 4rem;
+    line-height: 4.3rem;
+    font-size: 1.5rem;
+    background-color: #1D809F;
+    color: #fff;
+    transition: background-color 0.15s ease-in-out;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+  }
+  
