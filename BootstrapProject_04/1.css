@@ -1,0 +1,89 @@
+*{margin:0;padding:0; }
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+.nenanh{
+    padding-top: 230px;
+    padding-bottom: 280px;
+    background-image: url(https://petapixel.com/assets/uploads/2021/02/ProDisplay_feat.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+.navbar{
+    margin-bottom: 0px;
+}
+
+.nenanh h1{
+    font-size: 59px;
+    font-weight: 900px;
+    text-shadow: 2px 2px 0px 0px black;
+}
+
+.nenanh h3{
+    font-size: 23px;
+    text-shadow: 0px 1px 0px 0px black;
+}
+.ngan{
+   width: 47%;
+   background: black;
+   border-top: 4px solid rgb(162, 162, 162);
+   margin-bottom: 10px;
+}
+
+.nenxam1{
+    padding: 48px 0;
+    background-color: rgb(239, 239, 239);
+
+}
+.nenxam1 h2{
+    padding-top: 34px;
+    font-weight: 700px;   
+}
+.nenxam1 p{
+    font-size: 13px;
+    padding-top: 20px;
+}
+.nentrang1{
+    padding: 48px 0;
+
+}
+.nentrang1 p{
+    font-size: 13px;
+    padding-top:20px ;
+}
+.nentrang1 h2{
+    font-weight: 700;
+}
+
+.nenanh2{
+    padding: 90px 0;
+    background: url(https://www.numerama.com/wp-content/uploads/2019/06/mac-pro-6.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    background-position: center;
+}
+
+.nenanh2 h1{
+font-weight: 700;
+text-shadow: 1px 1px 0px black;
+font-size: 42px;
+}
+
+.footer{
+    padding-bottom: 4px;
+}
+.footer small{
+    color: gray;
+}
+
+.menutrai li {
+    float: left;
+    list-style: none;
+    margin-right:22px ;
+padding-bottom: 20px;
+}
