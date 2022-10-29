@@ -1,0 +1,42 @@
+*{margin:0;padding:0; }
+
+.danhgia{
+    color: brown;
+}
+ .danhgia h6{
+    margin-right: 15px;
+ }
+@media (max-width: 575.98px) {
+    #slide img{
+        width: 575px;;
+        height: 400px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    #slide img{
+        width:700px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #slide img{
+        width:800px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #slide img{
+        width: 800px;;
+        height: 400px;
+    }
+}
+
+@media (min-width: 1200px) {
+    #slide img {
+        width: 1000px;
+        height: 400px;
+    }
+}

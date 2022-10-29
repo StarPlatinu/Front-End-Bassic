@@ -1,0 +1,54 @@
+*{margin:0;padding:0; }
+ 
+.navbar-light .navbar-nav .nav-item > a:focus, .navbar-light .navbar-nav .nav-item > a:hover {
+    color: rgba(74, 244, 196, 0.7);
+}
+.navbar{
+    height: 80px;
+    padding-top: 14px;
+}
+.navbar-light .navbar-nav .nav-item > a{
+    text-transform: uppercase;
+    letter-spacing: 1.9px;
+    font-size: 13px;
+}
+
+.xanh{
+    background-color: #1abc9a;
+    padding-top: 80px;
+    color: white;
+    padding-bottom: 75px;
+}
+.xanh h3{
+    padding-bottom: 25px;
+    padding-top: 20px;
+}
+
+.xam{
+    padding-top: 95px;
+    background-color: rgb(140, 133, 133);
+    color: white;
+}
+.xam p {
+    font-size: 18px;
+    padding-top: 49px;
+    padding-bottom: 14px;
+}
+
+.xam .btn.btn-light{
+    font-size: 20px;
+    padding: 10px 12px;
+    margin-bottom: 67px;
+}
+
+.where h2{
+    padding: 88px 0;
+}
+
+.footer{
+    padding: 100px 0;
+    background-color: rgb(140, 133, 133);
+    color: white;
+    font-size: 16px;
+    margin-top: 100px;
+}
