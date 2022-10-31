@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Heebo', sans-serif;
+}
+.navbar-brand span{
+    color: blue;
+}
+
+.nav-item .nav-link{
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: black;
+}
+
+.banner{
+    width: 100%;
+    padding: 197px 0 162px 0px;
+    background-image: url(image/Hero_Large.png);
+    background-position: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    color: white;
+}
+.banner h2{
+    font-weight: 400;
+    font-size: 40px;
+}
+
+.banner a{
+    border-radius: 30px;
+    padding: 10px 20px;
+    background-color:#3E50E5; ;
+}
+
+
+.seller h2{
+    font-weight: 400;
+    font-size: 34px;
+    color: #000000;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+.seller .bound{
+    width: 66px;
+    height: 3px;
+    margin: auto;
+    background-color:#67F11D;
+    margin-bottom: 30px;
+}
+
+.seller .card {
+  border-radius: 7px;
+}
+
+.seller .card img{
+width: 220px;
+height: 240px;
+margin: auto;
+}
+
+.seller .card h6{
+    color: #3E50E5;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.seller .card h5{
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.seller .card p{
+    font-weight: 400;
+    font-size: 28px;
+    color: #EC1C1C;
+}
+
+.seller .card a{
+    border-radius: 30px;
+    padding: 10px 35px;
+    border: 1px solid black;
+}
+
+.signup{
+    margin: 50px;
+}
+
+.form-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #C8C8C8;;
+}
