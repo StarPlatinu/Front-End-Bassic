@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dixuong{
+    transition: 0.4s;
+    margin-top: 200px;
+    opacity: 0;
+}
+
+/* C1 Use Transition*/
+
+.cdemo{
+    transition: 0.4s;
+}
+
+.diphai{
+    /* transform: translateX(500px); */
+    animation:sangphai 1s forwards ;
+}
+
+@-webkit-keyframes sangphai{
+    /* from {transform: translateX(0);}
+    to {transform: translateX(400px);} */
+    0% {transform: translateX(0);} 
+    50% {transform: translateX(400px);}
+    100% {transform: translateX(600px); opacity: 0;}
+   
+}

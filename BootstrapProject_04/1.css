@@ -5,6 +5,8 @@ body{
 }
 
 .nenanh{
+    width: 100%;
+    height: auto;
     padding-top: 230px;
     padding-bottom: 280px;
     background-image: url(https://petapixel.com/assets/uploads/2021/02/ProDisplay_feat.jpg);
