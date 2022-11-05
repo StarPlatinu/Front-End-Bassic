@@ -1,0 +1,13 @@
+#error{
+    color: red;
+}
+
+.table1 input{
+    width: 700px;
+    padding: 10px;
+}
+
+.table1 {
+    border-collapse: separate;
+    border-spacing:15px 20px;
+}

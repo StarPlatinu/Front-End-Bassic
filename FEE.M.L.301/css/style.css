@@ -1,0 +1,13 @@
+.nut{
+    line-height: 38px;
+    font-size: 30px;
+}
+
+/* tạo font size cho dấu X */
+.fas{
+    font-size: 30px;
+}
+
+li{
+    align-items: center;
+}
