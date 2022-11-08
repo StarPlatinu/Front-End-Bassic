@@ -6,19 +6,49 @@ check.addEventListener("click",function () {
     var checkPassword = document.getElementById("password").value
     var checkRePassword = document.getElementById("re-password").value
 
-    if (checkEmail.match(mailformat) && checkPassword !== "" && checkUserName !==""
+    // document.getElementById("email").style.borderColor = "red";
+    // document.getElementById("password").style.borderColor = "red";
+    
+    // document.getElementById("error_msg_email").innerHTML = 'Please input email';
+    // document.getElementById("error_msg_password").innerHTML = 'Please input password';
+
+    if (checkEmail.match(mailformat) && checkPassword != "" && checkUserName !=""
         && checkRePassword===checkPassword) {
-        alert("Login successful!");
-    } else if(checkUserName == "") {
-        alert("Please insert your username!")
-    } else if (checkEmail == "" || checkEmail.match(mailformat)==false) {
-        alert( "Please insert your email!" )
-    } else if (checkPassword == "") {
-        alert( "Please insert your password!" )
-    } else if (checkRePassword !== checkPassword) {
-        alert( "Please check your password!" )
-    } else{
-        alert("Please insert your information correctly!")
+            document.getElementById("username").style.borderColor = "green";
+            document.getElementById("email").style.borderColor = "green";
+            document.getElementById("password").style.borderColor = "green";
+            document.getElementById("re-password").style.borderColor = "green";    
+            location.replace("http://127.0.0.1:5501/views/login.html");               
+    } 
+    if (checkEmail=="" && checkPassword == "" && checkUserName ==""
+    && checkRePassword=="" && checkPassword =="") {
+        document.getElementById("username").style.borderColor = "red";
+        document.getElementById("email").style.borderColor = "red";
+        document.getElementById("password").style.borderColor = "red";
+        document.getElementById("re-password").style.borderColor = "red";
+
+        document.getElementById("error_msg_username").innerHTML = 'Username is invalid';
+        document.getElementById("error_msg_email").innerHTML = 'Email is invalid';
+        document.getElementById("error_msg_password").innerHTML = 'Password is invalid';
+        document.getElementById("error_msg_re-password").innerHTML = 'Re-password is invalid';
+
     }
+     if(checkUserName == "") {
+        document.getElementById("username").style.borderColor = "red";
+    } 
+     if (checkEmail == "" || checkEmail.match(mailformat)==false) {
+        document.getElementById("email").style.borderColor = "red";
+    } 
+     if (checkPassword == "") {
+        document.getElementById("password").style.borderColor = "red";
+    } 
+    if (checkRePassword == "") {
+        document.getElementById("re-password").style.borderColor = "red";
+    } 
+     if (checkRePassword !== checkPassword) {
+         document.getElementById("error_msg_re-password").innerHTML = 'Repassword not match with password';
+         document.getElementById("password").style.borderColor = "red";
+         document.getElementById("re-password").style.borderColor = "red";
+     } 
 
 })

@@ -43,3 +43,12 @@ input {
 b {
     font-size: 12px;
 }
+
+
+.bcolor-red{
+    border: 1px solid red!important;
+}
+
+.color-red{
+    color: red;
+}

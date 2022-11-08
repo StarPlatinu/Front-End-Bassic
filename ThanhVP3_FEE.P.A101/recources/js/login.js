@@ -5,17 +5,39 @@ check.addEventListener("click",function () {
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     var checkPassword = document.getElementById("password").value;
 
-    if (checkEmail.match(mailformat) && checkPassword !== "") {
-        document.getElementById("email").style.border = '3px solid Green';
-    } else if (checkEmail == "" || checkEmail.match(mailformat)==false) {
-        alert( "Please insert your email!" );
-        document.getElementById("email").style.backgroundColor = 'Red';
-    } else if (checkPassword == "") {
-        alert( "Please insert your password!" );
-        document.getElementById("password").style.backgroundColor = 'Red';
-    } else{
-        alert("Please insert your information correctly!")
-        document.getElementById("password").style.backgroundColor = 'Red';
+    if(checkEmail == ""&&checkPassword == ""){
+        document.getElementById("email").style.borderColor = "red";
+        document.getElementById("password").style.borderColor = "red";
+        
+        document.getElementById("error_msg_email").innerHTML = 'Email is invalid';
+        document.getElementById("error_msg_password").innerHTML = 'Password is incorrect';
     }
 
+     if (checkEmail.match(mailformat) && checkPassword !="") {
+        document.getElementById("email").style.borderColor = "green";
+        document.getElementById("error_msg_email").style.display = 'none';
+        document.getElementById("error_msg_password").style.display = 'none';
+        setTimeout(function(){ 
+            location.replace("http://127.0.0.1:5501/views/loading.html");
+          }, 2000);
+       
+    } 
+    if (checkEmail.match(mailformat) && checkPassword !== ""&&checkPassword == "") {
+        document.getElementById("email").style.borderColor = "green";
+        document.getElementById("password").style.borderColor = "red";
+
+    } 
+     if (checkEmail == "" || checkEmail.match(mailformat)==false) {
+        document.getElementById("email").style.borderColor = "red";
+    } 
+    if(checkPassword != ""){
+        document.getElementById("password").style.borderColor = "green";
+    }
+     if (checkPassword == "") {   
+        document.getElementById("password").style.borderColor = "red";
+    }
+
+   
+
 })
+

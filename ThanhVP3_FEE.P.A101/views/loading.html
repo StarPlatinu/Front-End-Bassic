@@ -14,6 +14,7 @@
   </head>
   <body>
     
+    
       <header class="w-100 bg-light border border-5 border-bottom-secondary">
           <div class="d-flex justify-content-between p-2">
               <span id="backto-edit" class="text-secondary text-uppercase">cms</span>
@@ -40,53 +41,25 @@
             </div>
 
             <div id="view-content-btn" class="border p-2 pl-4 text-info">
-              <i class="far fa-list-alt"></i><span><a href="view-content.html" id="view-content"> View contents</a></span>
+              <i class="far fa-list-alt"></i><span><a href="view-content.html"> View contents</a></span>
             </div>
 
             <div id="form-content-btn" class="border p-2 pl-4 text-info">
-              <i class="far fa-edit"></i><span> <a href="form-content.html" id="form-content"> Form-content</a></span>
+              <i class="far fa-edit"></i><span> <a href="form-content.html"> Form-content</a></span>
             </div>
           </div> 
 
           <!-- Right content  -->
 
             <!-- Edit profile  -->
-          <div class="col-sm-9">
+          <div class="col-sm-9" style="height: 700px;">
             <div id="edit-profile">
-              <h2 class="pt-4">Edit Profile</h2>
-              <hr class="border">
-              <div class="profile-form border rounded">
-                <div id="profile-header" class="bg-light border p-2">
-                  <span class="">Profile Form Elements</span>
-                </div>
-                <form id="profile-input" class="bg-white border p-3">
-                  <div class="input-firstname pb-2">
-                    <label id="error_msg_firstname" for=""><b> First Name</b></label><br>
-                    <input class="p-1 border rounded" type="text" id="firstname" placeholder="Enter the first name">
-                  </div>
-                  <div class="input-lasttname pb-2">
-                    <label id="error_msg_lastname" for=""><b> Last Name</b></label><br>
-                    <input class="p-1 border rounded" type="text" id="lastname" placeholder="Enter the last name">
-                  </div>
-                  <div class="input-email pb-2">
-                    <label for="" id="error_msg_email"><b> Email</b></label><br>
-                    <input class="p-1 border-0 text-dark" type="text" id="email" placeholder="your_email@example.com">
-                  </div>
-                  <div class="input-Phonenumber pb-2">
-                    <label for="F" id="error_msg_phone"><b> Phone</b></label><br>
-                    <input class="p-1 border rounded" type="text" id="phone" placeholder="Enter your phone number">
-                  </div>
-                  <div class="input-decription pb-2">
-                    <label id="error_msg_description" for=""><b> Decription</b></label><br>
-                    <textarea class="w-75" name="decription" id="decription"  ></textarea>
-                  </div>
-                  <!-- Button  -->
-                  <br>
-                    <div id="sumit1" class="btn  btn-light" onclick="checkInput()">Submit Button</div>
-                    <button id="reset1" class="btn  btn-light" type="reset">Reset Button</button>
-                  
-                </form>
-              </div>
+                <script>
+                    setTimeout(function(){
+                       window.location.href = 'http://127.0.0.1:5501/views/profile.html';
+                    }, 5000);
+                 </script>
+              <h2 class="pt-4">Loading....</h2>
             </div>   
           </div>
           
