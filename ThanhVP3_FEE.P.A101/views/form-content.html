@@ -102,9 +102,9 @@
               <div id="profile-header" class="bg-light border p-2">
                 <span class="">Content Form Elements</span>
               </div>
-              <div id="profile-input" class="bg-white border p-3">
+              <form id="profile-input" class="bg-white border p-3">
                 <div class="input-title pb-2">
-                  <label for=""><b> Title</b></label
+                  <label id="error_msg_title" for=""><b> Title</b></label
                   ><br />
                   <input
                     id="title"
@@ -115,7 +115,7 @@
                   />
                 </div>
                 <div class="input-brief pb-2">
-                  <label for=""><b> Brief</b></label
+                  <label id="error_msg_brief" for=""><b> Brief</b></label
                   ><br />
                   <textarea
                     name="brief"
@@ -125,7 +125,7 @@
                   ></textarea>
                 </div>
                 <div class="input-content pb-2">
-                  <label for=""><b> Content</b></label
+                  <label id="error_msg_content" for=""><b> Content</b></label
                   ><br />
                   <textarea
                     name="content"
@@ -135,11 +135,11 @@
                   ></textarea>
                 </div>
                 <!-- Button  -->
-                <div id="button2">
-                  <div id="submit2" class="btn border">Submit Button</div>
-                  <div id="reset2" class="btn border">Reset Button</div>
-                </div>
-              </div>
+              
+                  <div id="submit2" class="btn border" onclick="checkInput()">Submit Button</div>
+                  <button id="reset2" class="btn border" type="reset">Reset Button</button>
+                
+              </form>
             </div>
           </div>
         </div>
@@ -163,5 +163,6 @@
       integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
       crossorigin="anonymous"
     ></script>
+    <script src="../recources/js/formcontent.js"></script>
   </body>
 </html>
