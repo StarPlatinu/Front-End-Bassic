@@ -1,0 +1,31 @@
+#main-content{
+    background-color:rgb(2, 2, 98);
+}
+
+.content{
+    background-color: white;
+    padding: 10px 10px;
+    margin: 10px;
+}
+
+#title{
+    color: white;
+    padding-bottom: 20px;
+}
+
+.bt-yellow{
+    background-color: orange;
+    border: none;
+    border-radius: 0px;
+    color: white;
+}
+
+.cv-input{
+    border: none;
+    padding: 4px;
+}
+
+.c-cv{
+    border: 1px solid black;
+    overflow: hidden;
+}
